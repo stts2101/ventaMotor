@@ -4,6 +4,7 @@ public class Moto extends Vehiculo{
     private float potenciaMoto;
     private String tipoMotor;
     private String suspencion;
+    public int unidadesMoto;
 
     public Moto(String marcaVehi, String modeloVehi, String anyoVehi, float pesoVehi, float potenciaMoto, String tipoMotor, String suspencion) {
         super(marcaVehi, modeloVehi, anyoVehi, pesoVehi);

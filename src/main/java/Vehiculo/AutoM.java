@@ -4,6 +4,7 @@ public class AutoM extends Vehiculo {
     private float potenciaAuto;
     private String nroPuerta;
     private String sizeMotor;
+    public int unidadesAuto;
 
     public AutoM(String marcaVehi, String modeloVehi, String anyoVehi, float pesoVehi, float potenciaAuto, String nroPuerta, String sizeMotor) {
         super(marcaVehi, modeloVehi, anyoVehi, pesoVehi);
