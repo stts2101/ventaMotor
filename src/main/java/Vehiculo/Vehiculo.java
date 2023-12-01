@@ -4,9 +4,9 @@ public abstract class Vehiculo {
     protected String marcaVehi;
     protected String modeloVehi;
     protected String anyoVehi;
-    protected String pesoVehi;
+    protected float pesoVehi;
 
-    public Vehiculo(String marcaVehi, String modeloVehi, String anyoVehi, String pesoVehi) {
+    public Vehiculo(String marcaVehi, String modeloVehi, String anyoVehi, float pesoVehi) {
         this.marcaVehi = marcaVehi;
         this.modeloVehi = modeloVehi;
         this.anyoVehi = anyoVehi;
@@ -37,11 +37,12 @@ public abstract class Vehiculo {
         this.anyoVehi = anyoVehi;
     }
 
-    public String getPesoVehi() {
+    public float getPesoVehi() {
         return pesoVehi;
     }
 
-    public void setPesoVehi(String pesoVehi) {
+    public void setPesoVehi(float pesoVehi) {
         this.pesoVehi = pesoVehi;
     }
+    public abstract float velocidadVehi();
 }
